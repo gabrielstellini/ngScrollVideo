@@ -1,8 +1,11 @@
 # NgVideoScrollDemo
 This project is adapted to angular and influenced from:
- https://github.com/designcourse/html5-video-scroll - no license at the time of writing
- https://codepen.io/ollieRogers/pen/lfeLc/
+- https://github.com/designcourse/html5-video-scroll - no license at the time of writing
+- https://codepen.io/ollieRogers/pen/lfeLc/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+
+This project can be viewed on https://stackblitz.com/github/gabrielstellini/ngScrollVideo
 
 ## Development server
 
@@ -15,3 +18,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Further work
+Integration with angular universal for production use.
