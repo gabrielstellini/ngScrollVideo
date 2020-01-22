@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+$primary-font  : 'Montserrat', sans-serif;
+
+body {
+  background-color: #c6d7de;
+  font-family: $primary-font;
+  padding: 3em;
+}
+
+#set-height {
+  display: block;
+}
+
+section {
+  z-index: 1;
+  position: relative;
+}
+
+.content {
+  position: sticky;
+  width: 100%;
+  top: 33.3%;
+}
+
+h1 {
+  padding: 10px 15px;
+  font-family: $primary-font;
+  font-size: 3em;
+  background: #fff;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 0;
+}
+
+p {
+  padding: 10px 15px;
+  font-size: 1.5em;
+  font-family: $primary-font;
+}
+
+section {
+  height: 1200px;
+}
+
+.entered {
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+video {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+}
